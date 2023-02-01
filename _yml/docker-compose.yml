@@ -21,6 +21,7 @@ services:
       - DEV_ENABLE_SSL=$DEV_ENABLE_SSL
       - HTTP_PORT=$HTTP_PORT
       - EMAIL=$EMAIL
+      - DEV_EMAIL=$DEV_EMAIL
 
 networks:
   default:

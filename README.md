@@ -1,4 +1,4 @@
-# docker-compose-vue-ducts ver.0.2.3
+# docker-compose-vue-ducts ver.0.2.4
 "Vanilla" Docker Compose environment for Vue CLI frontend and DUCTS backend
 
 ## What it does
@@ -108,3 +108,9 @@ Say your production server is at https://yourdomain.com/ and development server 
 - Redis database (prod) is at: yourdomain.com:6379 (by default, or whatever specified in `.env`)
 
 - Redis database (dev) is at: yourdomain.com:6380 (by default, or whatever specified in `.env`)
+
+## Version Logs
+
+- 0.2.4 (2023/2/1): [BUGFIX] Added DEV_EMAIL to docker-compose.yml; Changed back $host:$port -> $http_host
+
+- 0.2.3 (2022/7/1): Started keeping version logs
